@@ -1,0 +1,507 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+
+input {
+    border: 1px solid crimson;
+    padding: 0.2rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: crimson;
+    text-align: center;
+}
+
+img {
+    height: 203px;
+    width: 339px;
+    border-radius: 15px 15px 0 0;
+}
+
+hr {
+    border: 1px dashed rgb(243, 60, 96);
+    width: 15rem;
+}
+
+.logo {
+    font-family: 'Babylonica', cursive;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6);
+}
+
+.speciality-text {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.category {
+    /* font-family: 'Passion One', cursive; */
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+    color: crimson;
+}
+
+.navbar {
+    background-color: rgb(243, 60, 96);
+    width: 100%;
+}
+
+.navbar div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: rgb(243, 60, 96);
+    color: white;
+}
+
+.navbar-left {
+    padding: 0 20px;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.navbar-right-search {
+    margin: auto;
+    padding: 20px;
+}
+
+.navbar-right-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-right-links p {
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+.navbar-button {
+    background-color: white;
+    color: rgb(243, 60, 96);
+    padding: 0.13rem;
+    outline: none;
+    border: 1px solid rgb(243, 60, 96);
+    font-family: 'Sen', sans-serif;
+    border-radius: 0 5px 5px 0;
+    width: 4rem;
+}
+
+.navbar-button:hover {
+    background-color: rgb(243, 60, 96);
+    color: white;
+    border: 1px solid white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(243, 60, 96);
+    margin: 5rem;
+    padding: none;
+}
+
+.speciality {
+    display: block;
+    width: 80%;
+    background-color: rgb(243, 60, 96, 0.2);
+    border-radius: 15px;
+    height: auto;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.speciality-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.speciality-lasagna,
+.speciality-beef-stew,
+.speciality-grilled-chicken,
+.speciality-spring-roll {
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    width: 28rem;
+    margin: 1rem 0;
+}
+
+.speciality-lasagna:hover,
+.speciality-beef-stew:hover,
+.speciality-grilled-chicken:hover,
+.speciality-spring-roll:hover {
+    box-shadow: -4px 6px 11px -2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+    border: none;
+    transition: 500ms;
+}
+
+.speciality-lasagna-info,
+.speciality-beef-stew-info,
+.speciality-grilled-chicken-info,
+.speciality-spring-roll-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Sen', sans-serif;
+}
+
+.speciality-info {
+    text-align: center;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.speciality-header {
+    font-size: 30px;
+    /* text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.6); */
+}
+
+.speciality-lasagna {
+    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Beef-Burger-Pasta.jpg);
+}
+
+.speciality-beef-stew {
+    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Caldereta.jpg);
+}
+
+.speciality-grilled-chicken {
+    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Grilled-Chicken-Ala-Diavolo.jpg);
+}
+
+.speciality-spring-roll {
+    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Vietnamese_Spring_Rolls.jpg);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.main-content-div {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.main-content-left {
+    width: 19%;
+    border-radius: 15px 0 0 15px;
+    background-color: antiquewhite;
+}
+
+.main-content-right {
+    width: 79%;
+    margin-left: auto;
+    padding: 0.5rem 0;
+    border-radius: 0 15px 15px 0;
+    background-color: antiquewhite;
+}
+
+.main-content-right-title {
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 60, 96);
+}
+
+.main-content-right-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.category-links div {
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.link button {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    color: rgb(243, 60, 96);
+    border: none;
+    background-color: antiquewhite;
+}
+
+.link button:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(243, 60, 96, 0.1);
+    border-radius: 0px 0px 16px 16px;
+    height: 100%;
+    padding: 0 5rem;
+    color: rgb(243, 60, 96);
+}
+
+.banner-button {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(243, 60, 96);
+    border: 1px solid rgb(243, 60, 96);
+    color: white;
+}
+
+.banner-button:hover {
+    background-color: rgb(243, 60, 96, 0.2);
+    color: rgb(243, 60, 96);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.banner-logo {
+    font-family: 'Babylonica', cursive;
+    color: rgb(243, 60, 96);
+    font-size: 2.5rem;
+    padding: none;
+    margin: none;
+}
+
+.masterhead {
+    background-image: url(https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    height: 20rem;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.banner-img {
+    border-radius: 5px;
+    border: none;
+    height: 400px;
+    width: max-content;
+}
+
+.card {
+    background-color: rgb(214, 236, 185);
+    width: 21.15rem;
+    height: 23rem;
+    margin: 0.5rem;
+    color: rgb(243, 60, 96);
+    border-radius: 15px;
+
+}
+
+.card:hover {
+    box-shadow: -4px 6px 11px -2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    border: none;
+    transition: 500ms;
+}
+
+.card-img {
+    padding: none;
+    border-radius: 15px 15px 1px 15px;
+
+}
+
+/* .card-list {} */
+
+.card-list p {
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 1rem;
+}
+
+.main-content-right-component {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 79%;
+    margin-left: auto;
+    border-radius: 0 15px 15px 0;
+    /* border: 1px solid rgb(243, 60, 96); */
+    background-color: antiquewhite
+}
+
+.default-component {
+    background-image: url(https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136&q=80);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.default-component-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(250, 235, 215, 0.5);
+    color: rgb(92, 92, 92);
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.default-component-info p {
+    font-size: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 60, 96);
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+}
+
+.footer-img {
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.show-component {
+    opacity: 1;
+    transition: 2000ms;
+}
+
+.hide-component {
+    opacity: 0;
+    transition: 500ms;
+}
+
+/* icons */
+.gg-shopping-cart {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 21px;
+    background:
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat -1px 6px/18px 2px,
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat 6px 14px/11px 2px,
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat 0 2px/4px 2px,
+        radial-gradient(circle, currentColor 60%,
+            transparent 40%) no-repeat 12px 17px/4px 4px,
+        radial-gradient(circle, currentColor 60%,
+            transparent 40%) no-repeat 6px 17px/4px 4px
+}
+
+.gg-shopping-cart::after,
+.gg-shopping-cart::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 2px;
+    height: 14px;
+    background: currentColor;
+    top: 2px;
+    left: 4px;
+    transform: skew(12deg)
+}
+
+.gg-shopping-cart::after {
+    height: 10px;
+    top: 6px;
+    left: 16px;
+    transform: skew(-12deg)
+}
+
+.gg-profile,
+.gg-profile::after,
+.gg-profile::before {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 100px
+}
+
+.gg-profile {
+    overflow: hidden;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 22px;
+    position: relative
+}
+
+.gg-profile::after,
+.gg-profile::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 8px;
+    height: 8px
+}
+
+.gg-profile::after {
+    border-radius: 200px;
+    top: 11px;
+    left: 0px;
+    width: 18px;
+    height: 18px
+}
