@@ -16,7 +16,7 @@ const Navbar = () => {
                         <form onSubmit={context.handleFormSubmit}>
                             <input
                                 className='searchBar'
-                                placeholder='Beef Caldereta'
+                                placeholder=''
                                 type='text'
                                 onChange={context.handleInputChange}
                             />

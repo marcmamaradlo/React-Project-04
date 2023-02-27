@@ -1,6 +1,6 @@
 const CategoryBeef = () => {
     return (
-        <div className='main-content-right show-component'>
+        <div className='main-content-right-component show-component'>
             <div className='card'>
                 <div className='card-img'>
                     <img src='https://api.lifegetsbetter.ph/uploads/recipes/featured/Caldereta.jpg' alt='Beef Caldereta' />
@@ -18,7 +18,7 @@ const CategoryBeef = () => {
                 <div className='card-list'>
                     <h3 className='card-title'>Bulalo</h3>
                     <p>Rating <b>5.0</b></p>
-                    <p>is basically a bowl of nilaga made better because of the bone that's simmered with the beef. It makes perfect sense why it's so good because beef stock is really made from simmering the bones.</p>
+                    <p>Basically a bowl of nilaga made better because of the bone that's simmered with the beef. It makes perfect sense why it's so good because beef stock is really made from simmering the bones.</p>
                 </div>
             </div>
             <div className='card'>
@@ -68,7 +68,7 @@ const CategoryBeef = () => {
                 <div className='card-list'>
                     <h3 className='card-title'>Picadillo</h3>
                     <p>Rating <b>5.0</b></p>
-                    <p>This tasty giniling na baboy recipe is an easy meat swap for the original picadillo. This pork picadillo recipe is a fast-cooking dish to cook that can easily feed a family. </p>
+                    <p>This tasty giniling na baka recipe is an easy meat swap for the original picadillo. This picadillo dish is a fast-cooking dish to cook that can easily feed a family.</p>
                 </div>
             </div>
             <div className='card'>

@@ -6,6 +6,7 @@ import Banner from "./components/banner"
 import Header from "./components/header";
 import Specialty from "./components/specialty";
 import HeaderTwo from "./components/headerTwo";
+import About from "./components/about";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <Specialty />
             <HeaderTwo />
             <MainContent />
+            <About />
             <Footer />
         </MyProvider>
     )

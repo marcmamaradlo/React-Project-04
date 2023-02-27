@@ -239,6 +239,7 @@ hr {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 2rem;
 }
 
 .category-links div {
@@ -331,7 +332,6 @@ hr {
     margin: 0.5rem;
     color: rgb(243, 60, 96);
     border-radius: 15px;
-
 }
 
 .card:hover {
@@ -347,7 +347,9 @@ hr {
 
 }
 
-/* .card-list {} */
+/* .card-list {
+    border: 1px solid black;
+} */
 
 .card-list p {
     font-size: 12px;
@@ -358,6 +360,21 @@ hr {
     text-align: center;
     font-size: 16px;
     padding: 0 1rem;
+}
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+}
+
+.card-price p {
+    font-size: 16px;
+    padding: 0;
+    margin: auto;
 }
 
 .main-content-right-component {
@@ -396,6 +413,47 @@ hr {
 .default-component-info p {
     font-size: 1.2rem;
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: 5rem 10%;
+    padding: 0;
+}
+
+.about-masterhead {
+    background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: auto;
+    color: black;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    padding: 0 10%;
+    font-size: 21px;
+    text-align: justify;
+    font-weight: 600;
+
+}
+
+/* .about div {
+    display: block;
+} */
 
 .footer {
     display: flex;

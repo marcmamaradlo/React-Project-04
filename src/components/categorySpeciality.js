@@ -43,7 +43,7 @@ const CategorySpeciality = () => {
             </div>
             <div className='card'>
                 <div className='card-img'>
-                    <img src='https://images.unsplash.com/photo-1588047750516-f846a13ff314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092&q=80' alt='Korean Beef Stew' />
+                    <img src='https://images.unsplash.com/photo-1588047750516-f846a13ff314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092&q=80' alt='Lasagna' />
                 </div>
                 <div className='card-list'>
                     <h3 className='card-title'>Lasagna</h3>

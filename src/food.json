@@ -1,0 +1,628 @@
+[
+    {
+        "beef": [
+            {
+                "name": "Beef Caldereta",
+                "id": "bc01",
+                "category": "Beef",
+                "country": "Philippines",
+                "rating": "5.0",
+                "description": "Commonly, the goat meat is stewed with vegetables and liver paste. Vegetables may include tomatoes, potatoes, olives, bell peppers, and hot peppers. Kaldereta sometimes includes tomato sauce.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/featured/Caldereta.jpg",
+                "priceSolo": "180",
+                "priceParty": "800"
+            },
+            {
+                "name": "Beef Bulalo",
+                "id": "bb02",
+                "category": "Beef",
+                "country": "Philippines",
+                "rating": "5.0",
+                "description": "asically a bowl of nilaga made better because of the bone that's simmered with the beef. It makes perfect sense why it's so good because beef stock is really made from simmering the bones.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2021/11/05/porkbulalorecipe.jpg",
+                "priceSolo": "200",
+                "priceParty": "850"
+            },
+            {
+                "name": "Korean Beef Stew",
+                "id": "kbs03",
+                "category": "Beef",
+                "country": "Korean",
+                "rating": "5.0",
+                "description": "Korean Beef Stew is a hearty stew made with chuck roast, carrots, garlic, ginger, red pepper and green onions. Korean dishes are easy, versatile and so yummy.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/thumbnail/pineapple_korean_beef_stew.jpg",
+                "priceSolo": "190",
+                "priceParty": "900"
+            },
+            {
+                "name": "Bistek Tagalog",
+                "id": "bt04",
+                "category": "Beef",
+                "country": "Philippines",
+                "rating": "5.0",
+                "description": "The classic recipes such as Bistek recipes are those that have all the flavors that we love. It's truly a classic!",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2021/06/25/bistekrecipe-3.jpg",
+                "priceSolo": "180",
+                "priceParty": "800"
+            },
+            {
+                "name": "Beef Kare-Kare",
+                "id": "bkk05",
+                "category": "Beef",
+                "country": "Philippines",
+                "rating": "5.0",
+                "description": "Kare-kare is a Filipino beef stew with a rich peanut sauce. Usually, a classic beef kare-kare recipe will use oxtail, tripe, and a variety of vegetables. Meanwhile, the sauce is thickened with ground toasted rice and peanuts.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/Dec_2015/Kare-Kare-640.jpg",
+                "priceSolo": "200",
+                "priceParty": "1000"
+            },
+            {
+                "name": "Beef Stroganof",
+                "id": "bs06",
+                "category": "Beef",
+                "country": "Russian",
+                "rating": "5.0",
+                "description": "This dish may have Russian surname, but it's a meal that you'll find often on tables in South Africa, where it has been a popular family dish for many decades. Sour cream and mushrooms are essential.",
+                "image": "https://assets.unileversolutions.com/recipes-v2/212611.png?imwidth=800",
+                "priceSolo": "180",
+                "priceParty": "800"
+            },
+            {
+                "name": "Picadillo",
+                "id": "bps07",
+                "category": "Beef",
+                "country": "Spanish",
+                "rating": "5.0",
+                "description": "This tasty giniling na baka recipe is an easy meat swap for the original picadillo. This picadillo dish is a fast-cooking dish to cook that can easily feed a family.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2021/01/28/porkpicadillorecipe.jpg",
+                "priceSolo": "175",
+                "priceParty": "800"
+            },
+            {
+                "name": "Beef & Brocolli",
+                "id": "bbs08",
+                "category": "Beef",
+                "country": "Western",
+                "rating": "5.0",
+                "description": "Beef with broccoli is a dish that's super delicious. The slivers of beef are tender and coated in an umami-packed sauce with ginger and oyster sauce. The broccoli gives the dish a burst of fresh green flavor that's a nice contrast to the beefy meat.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2018/05/23/EasyBeefwithBroccoli-640.jpg",
+                "priceSolo": "180",
+                "priceParty": "800"
+            },
+            {
+                "name": "Beef & Mushroom",
+                "id": "bms09",
+                "category": "Beef",
+                "country": "Western",
+                "rating": "5.0",
+                "description": "This Beef With Two Kinds of Mushroom Recipe is high in iron that is needed for normal metabolism and vitamin A which helps maintain healthy skin and normal vision.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/featured/beef-with-two-kinds-of-mushroom.jpg",
+                "priceSolo": "180",
+                "priceParty": "800"
+            },
+            {
+                "name": "Roast Beef & Gravy",
+                "id": "rbg10",
+                "category": "Beef",
+                "country": "Western",
+                "rating": "5.0",
+                "description": "This fuss-free, succulent roast beef is the perfect party dish. The dry rub enhances the flavor of the meat and the dish does not need a lot of attention once it is placed in the oven.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/May_2016/slowroastedbeef-640.jpg",
+                "priceSolo": "280",
+                "priceParty": "1100"
+            },
+            {
+                "name": "Mapo Tofu",
+                "id": "mp11",
+                "category": "Beef",
+                "country": "Korean",
+                "rating": "5.0",
+                "description": "A favorite Chinese dish, Mapo Tofu is a silky tofu and ground pork dish is extra flavorful. It's tossed in a delicious sauce made with soybean paste, garlic, ginger, and chili.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/April_2014/MapoTofu.jpg",
+                "priceSolo": "150",
+                "priceParty": "750"
+            }
+        ]
+    },
+    {
+        "chicken": [
+            {
+                "name": "Afritada",
+                "id": "cf01",
+                "category": "chicken",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "This popular dish is sure to be a family favorite. It's packed with chicken, potatoes, and carrots simmered in a delicious tomato sauce.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/september_2015/chickenafritada-645.jpg",
+                "priceSolo": "120",
+                "priceParty": "500"
+            },
+            {
+                "name": "Adobo",
+                "id": "cadb02",
+                "category": "chicken",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "A sweet-savory combo, can be just as nostalgic as the salty-savory adobo. Star anise and a little sweetness transform the flavor of this dish but in a good way that's still appetizingly delicious.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2019/01/11/chineseadobo.jpg",
+                "priceSolo": "120",
+                "priceParty": "500"
+            },
+            {
+                "name": "Chicken Curry",
+                "id": "cc03",
+                "category": "chicken",
+                "country": "indian",
+                "rating": "5.0",
+                "description": "One of the creamiest chicken dishes we offer is all thanks to coconut cream or milk, with carrots, potatoes, bellpeppers and chili.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2022/09/27/chickencurryrecipe.jpg",
+                "priceSolo": "120",
+                "priceParty": "500"
+            },
+            {
+                "name": "Tinola",
+                "id": "ct04",
+                "category": "chicken",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "A chicken ginger soup with green papaya and malunggay leaves. It's a heartwarming dish that many make and serve during the cooler months to warm up but also serve as an everyday meal because it's just that good.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/01/17/1701_Tinola-640.jpg",
+                "priceSolo": "115",
+                "priceParty": "435"
+            },
+            {
+                "name": "BBQ Chicken Wings",
+                "id": "bbqcw005",
+                "category": "chicken",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "Crispy fried chicken wings drenched in a sweet-savory barbecue sauce, is what this chicken wings is all about.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2022/10/25/24chickenjackdanielschickenwingsrecipe.jpg",
+                "priceSolo": "150",
+                "priceParty": "600"
+            },
+            {
+                "name": "Cordon Bleu",
+                "id": "ccb06",
+                "category": "chicken",
+                "country": "western",
+                "rating": "5.0",
+                "description": "A dish that traditionally consists of meat wrapped around cheese, then breaded and pan-fried or deep-fried. Made with chicken cutlets, cooked ham, cheese, bread crumbs, and simple spices.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/12-2007_recipes/04-2007_yummy.ph_recipe_clhicken-cordon-bleu_image_main.jpg",
+                "priceSolo": "120",
+                "priceParty": "750"
+            },
+            {
+                "name": "Herbed Roasted Chicken",
+                "id": "hrc07",
+                "category": "chicken",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "This whole roasted chicken turns out terrifically flavorful and tender, and the broth left in the bottom is a perfect gravy in itself!",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/07/18/Stuffed-Peruvian-Chicken.jpg",
+                "priceSolo": "Not Available",
+                "priceParty": "480"
+            },
+            {
+                "name": "Chicken Pastel",
+                "id": "cp08",
+                "category": "chicken",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "This classic chicken dish is an adaptation of Spain's pastel de pollo. It's basically a chicken, mushroom, potato, carrot and creamy sauce.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/06/30/chicken-pastel.jpg",
+                "priceSolo": "120",
+                "priceParty": "500"
+            },
+            {
+                "name": "Kung Pao Chicken",
+                "id": "kpc09",
+                "category": "chicken",
+                "country": "chinese",
+                "rating": "5.0",
+                "description": "Tender chicken cubes fried with aromatic spices & seasoned with a delicious sauce,",
+                "image": "https://www.seriouseats.com/thmb/QhIPu-MMaW7DOXgfOoXfZ3XJo5g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2010__06__2021-02-12-Real-Deal-Kung-Pao-Chicken-MHOM-21-d8de1c4b127a4dc7b6d9e43e4b18a9e8.jpg",
+                "priceSolo": "140",
+                "priceParty": "500"
+            },
+            {
+                "name": "Chicken Lollipop",
+                "id": "cl10",
+                "category": "chicken",
+                "country": "western",
+                "rating": "5.0",
+                "description": "A lollipop chicken wing is a wing that's been prepared in a way to push all the meat into a tidy, delectable knob at the end of a cleaned-off bone, literally looking like a meaty lollipop.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/05/19/ChickenLollipops640.jpg",
+                "priceSolo": "120",
+                "priceParty": "900"
+            }
+        ]
+    },
+    {
+        "pork": [
+            {
+                "name": "Sour Pork Stew",
+                "id": "sps01",
+                "category": "pork",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "It's basically ''sinigang na baboy''. Maglaway ka diyan!",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/07/25/sinigang-640.jpg",
+                "priceSolo": "180",
+                "priceParty": "750"
+            },
+            {
+                "name": "Menudo",
+                "id": "pme02",
+                "category": "pork",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "it's a Spanish-inspired dish that is basically a fusion of Chinese and Spanish influences. The sauce is a thickened mixture that has the flavors of soy sauce and tomatoes.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2018/12/06/spicymenudo3-small.jpg",
+                "priceSolo": "180",
+                "priceParty": "750"
+            },
+            {
+                "name": "Adobo",
+                "id": "pa03",
+                "category": "pork",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "A sweet-savory combo, can be just as nostalgic as the salty-savory adobo. Star anise and a little sweetness transform the flavor of this dish but in a good way that's still appetizingly delicious.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/March_2016/pork-binagoongan-640.jpg",
+                "priceSolo": "180",
+                "priceParty": "750"
+            },
+            {
+                "name": "Binagoongan",
+                "id": "pb04",
+                "category": "pork",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "This dish may also be served with steamed eggplant and green mangoes. It's effortlessly packed with flavor and is definitely better eaten with loads of steamed white rice to catch all the savory-salty sauce.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/March_2016/pork-binagoongan-640.jpg",
+                "priceSolo": "180",
+                "priceParty": "975"
+            },
+            {
+                "name": "Bicol Express",
+                "id": "bex05",
+                "category": "pork",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "Combines two of our favorite ingredients, namely pork and gata or coconut cream, and made it even more addictive by adding some heat from the spicy chili.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/March_2016/pork-binagoongan-640.jpg",
+                "priceSolo": "180",
+                "priceParty": "750"
+            },
+            {
+                "name": "Pata Kare-Kare",
+                "id": "pkk06",
+                "category": "pork",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "This Kare-kare is a Filipino pork stew with a rich peanut sauce. Usually, a classic pork kare-kare recipe will use pata and a variety of vegetables. Meanwhile, the sauce is thickened with ground toasted rice and peanuts.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/09/08/kare-kare.jpg",
+                "priceSolo": "200",
+                "priceParty": "850"
+            },
+            {
+                "name": "Nilagang Baboy",
+                "id": "nbb07",
+                "category": "pork",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "https://images.summitmedia-digital.com/yummyph/images/2019/09/25/porknilagarecipe.jpg",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2019/09/25/porknilagarecipe.jpg",
+                "priceSolo": "180",
+                "priceParty": "750"
+            },
+            {
+                "name": "Sweet and Sour",
+                "id": "snw08",
+                "category": "pork",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "Sweet and sour pork has banana ketchup, fried pork pieces, onions, bell peppers, and pineapples tossed in a sweet-tangy sauce.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/09/19/SweetSourMeatballs640.jpg",
+                "priceSolo": "180",
+                "priceParty": "750"
+            },
+            {
+                "name": "Spring Rolls",
+                "id": "srlls09",
+                "category": "pork",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "Spring rolls, usually fried and rolled like cigars. Stuffed with any number of fillings but the most popular ones are those filled with savory pork.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2021/07/23/lumpiaplatter.jpg",
+                "priceSolo": "120",
+                "priceParty": "900"
+            }
+        ]
+    },
+    {
+        "pasta": [
+            {
+                "name": "Pancit Gisado",
+                "id": "pg01",
+                "category": "pasta",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "Pancit is one of the most flavorful noodles dishes. While pancit can be considered as a kind of Chinese food, these delicious noodle dishes can also be considered as a Filipino ulam dish!",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2019/11/25/chinesefamilystylepancitrecipe.jpg",
+                "priceSolo": "90",
+                "priceParty": "750"
+            },
+            {
+                "name": "Japche",
+                "id": "pj02",
+                "category": "pasta",
+                "country": "korean",
+                "rating": "5.0",
+                "description": "Korean Stir Fried Glass Noodles. Japchae translates as mixed vegetables. When it was first invented in the 17th century.",
+                "image": "https://straightupeats.com/wp-content/uploads/2020/07/Korean-Glass-Noodles.jpg",
+                "priceSolo": "180",
+                "priceParty": "900"
+            },
+            {
+                "name": "Meatball Spaghetti",
+                "id": "ms03",
+                "category": "pasta",
+                "country": "italian",
+                "rating": "5.0",
+                "description": "It's made up of deep fried balls of ground pork mixed with tomato sauce and spaghetti.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/05/05/hot-dog-meatball-spaghetti.jpg",
+                "priceSolo": "180",
+                "priceParty": "900"
+            },
+            {
+                "name": "Carbonara",
+                "id": "pc04",
+                "category": "pasta",
+                "country": "italian",
+                "rating": "5.0",
+                "description": "Carbonara is an Italian dish made with eggs, cheese, meat and black pepper, combined with spaghetti or fettuccine this pasta will surely be a party favorite.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2017/11/08/spaghetti-carbonara.jpg",
+                "priceSolo": "150",
+                "priceParty": "500"
+            },
+            {
+                "name": "Spaghetti",
+                "id": "ps05",
+                "category": "pasta",
+                "country": "italian",
+                "rating": "5.0",
+                "description": "Spaghetti has a striking red color and is sweet and spicy. ground pork, onions, and garlic are mixed into the thick sauce made with tomatoes and a generous helping of cheddar cheese is sprinkled on top of the spaghetti.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2018/09/14/Yummy_1809_Jollibee-StyleSpaghetti-640.jpg",
+                "priceSolo": "100",
+                "priceParty": "500"
+            },
+            {
+                "name": "Seafood Pasta",
+                "id": "sp06",
+                "category": "pasta",
+                "country": "",
+                "rating": "5.0",
+                "description": "This shrimp pasta is cooked with butter, olive oil, garlic and local herbs. The resulting dish is very delicious and comforting.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2018/02/17/Shrimp_Scampi_2_Patrick_Martires",
+                "priceSolo": "180",
+                "priceParty": "980"
+            },
+            {
+                "name": "Pancit Palabok",
+                "id": "pp07",
+                "category": "pasta",
+                "country": "",
+                "rating": "5.0",
+                "description": "This Filipino dish is made with thin rice noodles, pork-and-shrimp sauce. toppings of hardboiled eggs, smoked fish, pork chicharon and shrimp. Perfect for gatherings!",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/november_2015/palabok-645.jpg",
+                "priceSolo": "120",
+                "priceParty": "750"
+            },
+            {
+                "name": "Pad Thai",
+                "id": "pt08",
+                "category": "pasta",
+                "country": "thai",
+                "rating": "5.0",
+                "description": "These thick rice noodles are tossed in a sweet, sour, and salty sauce made from a tamarind, bean sprouts, chicken chunks, peeled shrimps, and a scrambled egg complete this version of the popular Thai dish.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2018/05/16/pad_thai_closeup-patrick_martires.jpg",
+                "priceSolo": "180",
+                "priceParty": "600"
+            }
+        ]
+    },
+    {
+        "grill": [
+            {
+                "name": "Pork BBQ",
+                "id": "pbbq01",
+                "category": "grill",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "For those who enjoy some heat, this barbecue marinade delivers it without making you break out into a sweat. Combined with the sweet-spicy flavors of the banana ketchup, this is one pork barbecue marinade few will be able to resist!.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2022/08/11/august2022-porkbarbecuerecipewithsriracha.jpg",
+                "priceSolo": "3pcs 100",
+                "priceParty": "3pcs 100"
+            },
+            {
+                "name": "Grilled Liempo",
+                "id": "gl02",
+                "category": "grill",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "Pork belly is undeniably the crowd favorite for gatherings. The secret is in the marinade. It's the key to lip-smacking grilled liempo.",
+                "image": "https://images.summitmedia-digital.com/sap/images/2016-Yummy-Uploads/KnorrLiquidSeasoning/image004.png",
+                "priceSolo": "150",
+                "priceParty": "780"
+            },
+            {
+                "name": "Chicken Leg Quarter",
+                "id": "clq03",
+                "category": "grill",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "It is a perfect chicken recipe for a quick meal and will be loved by everyone for its amazing flavours. This delicious and filling recipe is sure to woo your taste buds.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/featured/Grilled-Chicken-Ala-Diavolo.jpg",
+                "priceSolo": "120",
+                "priceParty": "480"
+            },
+            {
+                "name": "Grilled Bangus",
+                "id": "gb04",
+                "category": "grill",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "This classic dish combines the fresh seafood taste coming from the Bangus stuffed with fresh vegetables and aromatics.",
+                "image": "https://assets.unileversolutions.com/recipes-v2/110309.jpg?imwidth=800",
+                "priceSolo": "Not Available",
+                "priceParty": "3/4kg 350"
+            },
+            {
+                "name": "Grilled Tilapia",
+                "id": "gt05",
+                "category": "grill",
+                "country": "",
+                "rating": "5.0",
+                "description": "This classic dish combines the fresh seafood taste coming from the Tilapia stuffed with fresh vegetables.",
+                "image": "https://images.aws.nestle.recipes/resized/6a3e046a41ac8c3676aacdda66e90ae9_Grilled_Pla_Pla_1500_700.jpg",
+                "priceSolo": "Not Available",
+                "priceParty": "3/4kg 400"
+            }
+        ]
+    },
+    {
+        "seafood": [
+            {
+                "name": "Sinigang na Hipon",
+                "id": "snb01",
+                "category": "seafood",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "In this Filipino fish recipe, shrimp is stewed in a flavorful, slightly sour tamarind broth with lots of vegetables, an all-time favorite.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2021/12/09/sinigangnahipon-shrimpsinigang.jpg",
+                "priceSolo": "250",
+                "priceParty": "1000"
+            },
+            {
+                "name": "Buttered Shrimp",
+                "id": "bs02",
+                "category": "western",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "It is simply made of Shrimp, garlic, butter, and lemon soda.",
+                "image": "https://www.lutongbahayrecipe.com/wp-content/uploads/2019/02/lutong-bahay-recipe-Buttered-Garlic-Shrimp-1.png",
+                "priceSolo": "250",
+                "priceParty": "1000"
+            },
+            {
+                "name": "Sweet and Sour",
+                "id": "sas03",
+                "category": "seafood",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "This Filipino-style escabeche recipe is a play on sweet and sour flavors.  Deep fried fish then cooked in vinegar gives the dish a unique texture and acidic taste.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2016/07/04/fish-escabeche-640.jpg",
+                "priceSolo": "180",
+                "priceParty": "720"
+            },
+            {
+                "name": "Steamed Fish",
+                "id": "sf04",
+                "category": "seafood",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "It's a great dish to serve during holiday parties. Our grandparents will love the steamed fish's sweet and delicate flavor.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/november_2015/chinese-steamed-fish-with-soy-and-ginger-sauce-645.jpg",
+                "priceSolo": "180",
+                "priceParty": "720"
+            }
+        ]
+    },
+    {
+        "speciality": [
+            {
+                "name": "Beef Caldereta",
+                "id": "bc01",
+                "category": "speciality",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "Commonly, the goat meat is stewed with vegetables and liver paste. Vegetables may include tomatoes, potatoes, olives, bell peppers, and hot peppers. Kaldereta sometimes includes tomato sauce.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/featured/Caldereta.jpg",
+                "priceSolo": "180",
+                "priceParty": "800"
+            },
+            {
+                "name": "Chicken Afritada",
+                "id": "cf02",
+                "category": "speciality",
+                "country": "filipino",
+                "rating": "5.0",
+                "description": "Afritada is a Philippine dish consisting of chicken, beef, or pork braised in tomato sauce with carrots, potatoes, and red and green bell peppers.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/featured/Classic-Afritada.jpg",
+                "priceSolo": "120",
+                "priceParty": "500"
+            },
+            {
+                "name": "Korean Beef Stew",
+                "id": "kbs03",
+                "category": "speciality",
+                "country": "Korean Beef Stew",
+                "rating": "5.0",
+                "description": "Korean Beef Stew is a hearty stew made with chuck roast, carrots, garlic, ginger, red pepper and green onions. Korean dishes are easy, versatile and so yummy.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/thumbnail/pineapple_korean_beef_stew.jpg",
+                "priceSolo": "190",
+                "priceParty": "900"
+            },
+            {
+                "name": "Grilled Chicken",
+                "id": "gc04",
+                "category": "speciality",
+                "country": "asian",
+                "rating": "5.0",
+                "description": "The leg quarter is made up of the thigh, drumstick, and part of the back of the chicken. It's named a quarter because it consists of about a quarter of the whole bird.",
+                "image": "https://api.lifegetsbetter.ph/uploads/recipes/featured/Grilled-Chicken-Ala-Diavolo.jpg",
+                "priceSolo": "120",
+                "priceParty": "480"
+            },
+            {
+                "name": "Lasagna",
+                "id": "sl05",
+                "category": "speciality",
+                "country": "italian",
+                "rating": "5.0",
+                "description": "A baked Italian dish consisting of wide strips of pasta cooked and layered with meat or vegetables, cheese, and tomato sauce.",
+                "image": "https://images.unsplash.com/photo-1588047750516-f846a13ff314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092&q=80",
+                "priceSolo": "120",
+                "priceParty": "1200"
+            }
+        ]
+    },
+    {
+        "baked": [
+            {
+                "name": "Lasagna",
+                "id": "bl01",
+                "category": "baked",
+                "country": "italian",
+                "rating": "5.0",
+                "description": "A baked Italian dish consisting of wide strips of pasta cooked and layered with meat or vegetables, cheese, and tomato sauce.",
+                "image": "https://images.unsplash.com/photo-1588047750516-f846a13ff314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092&q=80",
+                "priceSolo": "120",
+                "priceParty": "1200"
+            },
+            {
+                "name": "Baked Macarroni",
+                "id": "bm02",
+                "category": "baked",
+                "country": "italian",
+                "rating": "5.0",
+                "description": "These baked pastas are usually loaded with pasta, a meaty tomato sauce, and gooey cheese on top.",
+                "image": "https://images.summitmedia-digital.com/yummyph/images/2021/10/08/bakedmac.jpg",
+                "priceSolo": "100",
+                "priceParty": "900"
+            }
+        ]
+    }
+]
