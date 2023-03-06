@@ -1,23 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Sen', sans-serif;
-}
-
-input {
-    border: 1px solid crimson;
-    padding: 0.2rem;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: crimson;
-    text-align: center;
-}
-
-img {
-    height: 203px;
-    width: 339px;
-    border-radius: 15px 15px 0 0;
 }
 
 hr {
@@ -72,6 +58,15 @@ hr {
     justify-content: flex-end;
 }
 
+.navbar-right input {
+    border: 1px solid crimson;
+    padding: 0.2rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: crimson;
+    text-align: center;
+}
+
 .navbar-right-search {
     margin: auto;
     padding: 20px;
@@ -108,96 +103,68 @@ hr {
 
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     color: rgb(243, 60, 96);
-    margin: 5rem;
-    padding: none;
+    margin: auto;
+    padding: 5rem 0;
+    width: 80%;
 }
 
 .speciality {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 80%;
-    background-color: rgb(243, 60, 96, 0.2);
-    border-radius: 15px;
     height: auto;
     margin: auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
+    background-color: rgba(243, 60, 96, 0.1);
+    box-shadow: 1px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
-.speciality-div {
+.speciality-content {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 100%;
+    /* border: 1px solid crimson; */
+}
+
+.speciality-content:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.speciality-image {
+    display: flex;
+    width: 50%;
+}
+
+.speciality-image img {
+    width: 35rem;
     margin: auto;
+    border-radius: 5px;
 }
 
-.speciality-lasagna,
-.speciality-beef-stew,
-.speciality-grilled-chicken,
-.speciality-spring-roll {
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-    height: 25rem;
-    width: 28rem;
-    margin: 1rem 0;
-}
-
-.speciality-lasagna:hover,
-.speciality-beef-stew:hover,
-.speciality-grilled-chicken:hover,
-.speciality-spring-roll:hover {
-    box-shadow: -4px 6px 11px -2px rgba(0, 0, 0, 0.4);
-    transform: scale(1.01);
-    border: none;
-    transition: 500ms;
-}
-
-.speciality-lasagna-info,
-.speciality-beef-stew-info,
-.speciality-grilled-chicken-info,
-.speciality-spring-roll-info {
+.speciality-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    height: 100%;
-    width: 100%;
-    font-family: 'Sen', sans-serif;
-}
-
-.speciality-info {
-    text-align: center;
-    padding: 2rem;
-    color: rgba(255, 255, 255, 1);
+    text-align: justify;
+    padding: 2.5rem;
+    color: crimson;
+    text-align: justify;
     font-size: 22px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    width: 50%;
 }
 
 .speciality-header {
     font-size: 30px;
     /* text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.6); */
-}
-
-.speciality-lasagna {
-    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Beef-Burger-Pasta.jpg);
-}
-
-.speciality-beef-stew {
-    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Caldereta.jpg);
-}
-
-.speciality-grilled-chicken {
-    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Grilled-Chicken-Ala-Diavolo.jpg);
-}
-
-.speciality-spring-roll {
-    background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Vietnamese_Spring_Rolls.jpg);
 }
 
 .main-content {
@@ -206,6 +173,7 @@ hr {
     height: 100%;
     width: 80%;
     margin: 0 10%;
+    box-shadow: 1px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .main-content-div {
@@ -215,16 +183,13 @@ hr {
 }
 
 .main-content-left {
-    width: 19%;
-    border-radius: 15px 0 0 15px;
+    padding-top: 4rem;
+    width: 20rem;
     background-color: antiquewhite;
 }
 
 .main-content-right {
-    width: 79%;
-    margin-left: auto;
-    padding: 0.5rem 0;
-    border-radius: 0 15px 15px 0;
+    width: 80%;
     background-color: antiquewhite;
 }
 
@@ -242,6 +207,18 @@ hr {
     padding-bottom: 2rem;
 }
 
+.main-content-right-component {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 79%;
+    margin-left: auto;
+    /* border-radius: 0 15px 15px 0; */
+    /* border: 1px solid rgb(243, 60, 96); */
+    background-color: antiquewhite
+}
+
 .category-links div {
     width: 100%;
 }
@@ -250,7 +227,6 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .link button {
@@ -258,6 +234,7 @@ hr {
     padding: 1rem 0.5rem;
     color: rgb(243, 60, 96);
     border: none;
+    font-size: 1rem;
     background-color: antiquewhite;
 }
 
@@ -267,10 +244,21 @@ hr {
 }
 
 .banner {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: auto;
-    border-radius: 0px 0px 16px 16px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: rgb(243, 60, 96);
+    background-color: rgb(243, 60, 96, 0.1);
 }
 
 .banner-info {
@@ -278,11 +266,10 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-color: rgb(243, 60, 96, 0.1);
-    border-radius: 0px 0px 16px 16px;
     height: 100%;
+    width: 100%;
+    margin: auto;
     padding: 0 5rem;
-    color: rgb(243, 60, 96);
 }
 
 .banner-button {
@@ -313,9 +300,8 @@ hr {
 .masterhead {
     background-image: url(https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
-    border-radius: 0px 0px 16px 16px;
 }
 
 .banner-img {
@@ -331,20 +317,26 @@ hr {
     height: 23rem;
     margin: 0.5rem;
     color: rgb(243, 60, 96);
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
-.card:hover {
+/* .card:hover {
     box-shadow: -4px 6px 11px -2px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
     border: none;
     transition: 500ms;
-}
+} */
 
 .card-img {
     padding: none;
-    border-radius: 15px 15px 1px 15px;
+    border-radius: 5px 5px 0px 0px;
 
+}
+
+.card-img img {
+    width: 21.1rem;
+    height: 12.5rem;
+    border-radius: 5px 5px 0px 0px;
 }
 
 /* .card-list {
@@ -384,7 +376,7 @@ hr {
     justify-content: center;
     width: 79%;
     margin-left: auto;
-    border-radius: 0 15px 15px 0;
+    /* border-radius: 0 15px 15px 0; */
     /* border: 1px solid rgb(243, 60, 96); */
     background-color: antiquewhite
 }
@@ -420,40 +412,87 @@ hr {
     height: 100%;
     width: 80%;
     margin: 5rem 10%;
-    padding: 0;
+    box-shadow: 1px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .about-masterhead {
-    background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1551499779-ee50f1aa4d25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
     width: auto;
-    color: black;
-    border-radius: 15px;
-    padding: 0;
-    margin: 0;
+    color: white;
+    border-radius: 5px;
 }
 
 
 .about-info {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
-    height: 100%;
-    width: 50%;
-    border-radius: 15px;
+    height: 85%;
+    width: 70%;
+    border-radius: 5px;
     padding: 0 10%;
-    font-size: 21px;
-    text-align: justify;
+    font-size: 20px;
     font-weight: 600;
-
+    text-align: justify;
+    /* border: 1px solid white; */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #B80000;
+    -webkit-text-fill-color: #8ADAFF; */
+    /* box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0); */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    /* text-shadow: 1px 0px 1px rgba(0, 0, 0, 1); */
 }
 
-/* .about div {
-    display: block;
-} */
+.about-info h3 {
+    font-family: 'Babylonica', cursive;
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.about-info p {
+    /* background-color: rgba(243, 60, 97, 0.137); */
+    border-radius: 15px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.contact-masterhead {
+    background-image: url(https://images.unsplash.com/photo-1587334207810-4915c4e40c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.contact-info {
+    background-color: rgb(243, 60, 96);
+}
+
+.contact-info div {
+    margin: auto;
+    padding: 5px;
+}
 
 .footer {
     display: flex;

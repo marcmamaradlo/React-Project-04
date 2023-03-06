@@ -4,7 +4,7 @@ const MainMenu = (props) => {
 
     return (
         <div className='card' key={newItem.id}>
-            <div className='card-mg'>
+            <div className='card-img'>
                 <img src={newItem.image} alt={newItem.name} />
             </div>
             <div className='card-list'>

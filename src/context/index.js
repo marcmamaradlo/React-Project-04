@@ -3,7 +3,6 @@ import JSON from '../food.json';
 import CategoryButtons from '../components/categoryButtons';
 import MainMenu from '../components/mainMenu';
 
-
 const MyContext = React.createContext();
 
 class MyProvider extends Component {
@@ -16,12 +15,14 @@ class MyProvider extends Component {
         date: '',
         activeFood: 'speciality',
         food: JSON,
-        foodArr: []
+        foodArr: [],
     }
+
+    // cart = { expired: Date, lastUpdated: Date, items: [{ food_id: JSONid, quantity: number }] }
 
     handleFormSubmit = (e) => {
         e.preventDefault()
-        console.table(this.state)
+        console.log(this.state)
     }
 
     handleInputChange = (e) => {
