@@ -16,9 +16,36 @@ class MyProvider extends Component {
         activeFood: 'speciality',
         food: JSON,
         foodArr: [],
+        testArr: [],
+        testArrChar: ''
     }
 
     // cart = { expired: Date, lastUpdated: Date, items: [{ food_id: JSONid, quantity: number }] }
+
+
+
+    handlePushArr = (e) => {
+        e.preventDefault();
+        const newDate = new Date();
+        const day = newDate.getDate();
+        const month = newDate.getMonth();
+        const year = newDate.getFullYear();
+        const startDate = `${day}-${month}-${year}`
+        const pushThis = this.state.testArrChar
+        this.setState({ date: startDate })
+        this.state.testArr.push(`${pushThis}, ${startDate}`);
+        this.setState({ testArrChar: '' })
+    }
+
+    showTestArr = () => {
+        return this.state.testArr.map((items, i) => (
+            <li key={i}>{items}</li>
+        ))
+    }
+
+    handlePushArrChar = (e) => {
+        this.setState({ testArrChar: e.target.value })
+    }
 
     handleFormSubmit = (e) => {
         e.preventDefault()
@@ -59,7 +86,8 @@ class MyProvider extends Component {
 
         const
             {
-                handleFormSubmit, handleInputChange, handleCategoryButton, createButton, mapFunction, mainContentTitle,
+                handleFormSubmit, handleInputChange, handleCategoryButton, createButton, mapFunction, mainContentTitle, handlePushArrChar, handlePushArr,
+                showTestArr,
                 state, newArr,
             } = this;
 
@@ -72,6 +100,9 @@ class MyProvider extends Component {
                     createButton,
                     mapFunction,
                     mainContentTitle,
+                    handlePushArrChar,
+                    handlePushArr,
+                    showTestArr,
                     state,
                     newArr,
                 }}>
